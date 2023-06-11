@@ -111,12 +111,11 @@ let palabra = ["hola", "chau"];
 let caracteres = 0;
 
 
-function recorrePalabra(){
-    for (let i= 0; i<palabra.length; i++);
+    for (let i= 0; i<palabra.length; i++){;
     caracteres += palabra[i].length;
 }
 
-console.log(recorrePalabra(caracteres));
+console.log(caracteres);
 
 
 
